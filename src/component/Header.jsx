@@ -6,6 +6,7 @@ import { BsArrowBarUp } from "react-icons/bs";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { MdOutlineAccountCircle } from "react-icons/md";
 import { IoMdMenu } from "react-icons/io";
+import { MdOutlineCastConnected } from "react-icons/md";
 function Header() {
   return (
     <div className='flex bg-[rgb(15,15,15);] justify-between items-center px-5 py-2'>
@@ -18,6 +19,9 @@ function Header() {
             <div className='flex justify-center items-center'>
                 <FaYoutube className='text-red-600 text-4xl' />
                 <strong className='text-white text-2xl'>YouTube</strong>
+                <div className='flex justify-start items-start text-white'>
+                    <i className='text-xs mb-5'>TR</i>
+                </div>
             </div>
 
         </div>
@@ -30,10 +34,11 @@ function Header() {
         
         
         <div className='flex justify-center items-center gap-6'>
-            <button className='text-white text-2xl xl:hidden lg:hidden md:hidden'><CiSearch className='text-slate-100' /></button>
             <button className='text-white text-2xl hidden xl:flex lg:flex md:flex'><BsArrowBarUp /></button>
-            <button className='text-white text-2xl'><IoMdNotificationsOutline /></button>
-            <button className='text-white text-2xl'><MdOutlineAccountCircle /></button>
+            <button className='text-white text-2xl flex xl:hidden lg:hidden md:hidden'><MdOutlineCastConnected /></button>
+            <button className='text-white text-2xl '><IoMdNotificationsOutline /></button>
+            <button className='text-white text-2xl hidden xl:flex lg:flex md:flex'><MdOutlineAccountCircle /></button>
+            <button className='text-white text-2xl flex xl:hidden lg:hidden md:hidden'><CiSearch className='text-slate-100' /></button>
         </div>
 
 

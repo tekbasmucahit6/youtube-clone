@@ -3,17 +3,18 @@ import { MdHomeFilled } from "react-icons/md";
 import { SiYoutubeshorts } from "react-icons/si";
 import { MdSubscriptions } from "react-icons/md";
 import { MdOutlineVideoLibrary } from "react-icons/md";
+import { CiCirclePlus } from "react-icons/ci";
 function LessMenu() {
   return (
-    <div className='flex bg-[rgb(15,15,15);] justify-between items-center xl:grid lg:grid md:grid gap-10 p-5'>
+    <div className='flex bg-[rgb(15,15,15);] justify-between items-center xl:grid lg:grid md:grid gap-8 p-2'>
         
         <div className='grid text-white gap-2'>
 
             <div className='flex justify-center items-center'>
-                <MdHomeFilled className='text-2xl' />
+                <MdHomeFilled className='text-xl' />
             </div>
 
-            <div className='hidden xl:flex lg:flex md:flex justify-center items-center'>
+            <div className='flex justify-center items-center'>
                 <em className='text-xs'>Ana sayfa</em>
             </div>
 
@@ -22,34 +23,47 @@ function LessMenu() {
         <div className='grid text-white gap-2'>
 
             <div className='flex justify-center items-center'>
-                <SiYoutubeshorts className='text-2xl' />
+                <SiYoutubeshorts className='text-xl' />
             </div>
 
-            <div className='hidden xl:flex lg:flex md:flex justify-center items-center'>
+            <div className='flex justify-center items-center'>
                 <em className='text-xs'>Shorts</em>
             </div>
 
         </div>
 
+
+        <div className='grid text-white xl:hidden lg:hidden md:hidden'>
+
+            <div className='flex justify-center items-center'>
+                <CiCirclePlus className='text-3xl' />
+            </div>
+
+
+        </div>
+
+
         <div className='grid text-white gap-2'>
 
             <div className='flex justify-center items-center'>
-                <MdSubscriptions className='text-2xl' />
+                <MdSubscriptions className='text-xl' />
             </div>
 
-            <div className='hidden xl:flex lg:flex md:flex justify-center items-center'>
+            <div className='flex justify-center items-center'>
                 <em className='text-xs'>Abonelikler</em>
             </div>
 
         </div>
+        
+        
 
         <div className='grid text-white gap-2'>
 
             <div className='flex justify-center items-center'>
-                <MdOutlineVideoLibrary className='text-2xl' />
+                <MdOutlineVideoLibrary className='text-xl' />
             </div>
 
-            <div className='hidden xl:flex lg:flex md:flex justify-center items-center'>
+            <div className='flex justify-center items-center'>
                 <em className='text-xs'>Siz</em>
             </div>
 

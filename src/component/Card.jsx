@@ -5,7 +5,7 @@ function Card() {
     <div className='grid p-5'>
         <a href="">
             <div className='flex justify-center items-center'>
-                <img src="../img/kapak.png" className='w-72' alt="" />
+                <img src="../img/kapak.png" className='w-full' alt="" />
             </div>
 
 
