@@ -10,6 +10,13 @@ function Content() {
             <Card />
             <Card />
             <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+
 
         </div>
     </div>

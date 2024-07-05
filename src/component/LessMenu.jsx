@@ -6,7 +6,7 @@ import { MdOutlineVideoLibrary } from "react-icons/md";
 import { CiCirclePlus } from "react-icons/ci";
 function LessMenu() {
   return (
-    <div className='flex bg-[rgb(15,15,15);] justify-between items-center xl:items-start lg:items-start md:items-start  xl:grid lg:grid md:grid gap-8 p-2'>
+    <div className='flex xl:absolute lg:absolute md:absolute bg-[rgb(15,15,15);] justify-between items-center xl:items-start lg:items-start md:items-start  xl:grid lg:grid md:grid gap-8 p-2'>
         
         {/* anasayfa col */}
         <div className='grid text-white gap-2'>
