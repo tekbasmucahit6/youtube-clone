@@ -6,8 +6,9 @@ import { MdOutlineVideoLibrary } from "react-icons/md";
 import { CiCirclePlus } from "react-icons/ci";
 function LessMenu() {
   return (
-    <div className='flex bg-[rgb(15,15,15);] justify-between items-center xl:grid lg:grid md:grid gap-8 p-2'>
+    <div className='flex bg-[rgb(15,15,15);] justify-between items-center xl:items-start lg:items-start md:items-start  xl:grid lg:grid md:grid gap-8 p-2'>
         
+        {/* anasayfa col */}
         <div className='grid text-white gap-2'>
 
             <div className='flex justify-center items-center'>
@@ -19,7 +20,8 @@ function LessMenu() {
             </div>
 
         </div>
-
+        {/* anasayfa col bitişi */}
+        {/* shorts col */}
         <div className='grid text-white gap-2'>
 
             <div className='flex justify-center items-center'>
@@ -31,18 +33,17 @@ function LessMenu() {
             </div>
 
         </div>
-
-
+        {/* shorts col bitişi */}
+        {/* mobile tasarım col */}
         <div className='grid text-white xl:hidden lg:hidden md:hidden'>
 
             <div className='flex justify-center items-center'>
                 <CiCirclePlus className='text-3xl' />
             </div>
 
-
         </div>
-
-
+        {/* mobile tasarım col bitişi */}
+        {/* abonelikler col */}
         <div className='grid text-white gap-2'>
 
             <div className='flex justify-center items-center'>
@@ -54,9 +55,8 @@ function LessMenu() {
             </div>
 
         </div>
-        
-        
-
+        {/* abonelikler col bitişi */}
+        {/* siz col */}
         <div className='grid text-white gap-2'>
 
             <div className='flex justify-center items-center'>
@@ -68,7 +68,7 @@ function LessMenu() {
             </div>
 
         </div>
-
+        {/* siz col bitişi */}
     </div>
   )
 }

@@ -34,10 +34,18 @@ function Header() {
         
         
         <div className='flex justify-center items-center gap-6'>
+            {/* web tasarım new content item */}
             <button className='text-white text-2xl hidden xl:flex lg:flex md:flex'><BsArrowBarUp /></button>
+                {/* mobile tasarım paylaşım icon */}
             <button className='text-white text-2xl flex xl:hidden lg:hidden md:hidden'><MdOutlineCastConnected /></button>
-            <button className='text-white text-2xl '><IoMdNotificationsOutline /></button>
+            {/* mobile,web tasarım notification icon */}
+            <div className='flex justify-center items-center'>
+                <button className='text-white text-2xl '><IoMdNotificationsOutline /></button>
+                <i className='bg-red-600 text-white text-xs px-1 rounded-xl relative mb-5'>9+</i>
+            </div>
+            {/* web tasarım account icon */}
             <button className='text-white text-2xl hidden xl:flex lg:flex md:flex'><MdOutlineAccountCircle /></button>
+            {/* mobile tasarım search icon */}
             <button className='text-white text-2xl flex xl:hidden lg:hidden md:hidden'><CiSearch className='text-slate-100' /></button>
         </div>
 
