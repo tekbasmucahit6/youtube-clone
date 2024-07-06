@@ -27,7 +27,7 @@ function Header() {
         </div>
 
         <div className='hidden xl:flex lg:flex md:flex justify-center items-center'>
-            <input type="text" className='w-96 rounded-tl-full rounded-bl-full border py-2 px-5 border-[rgb(34,34,34)] bg-[rgb(15,15,15);] text-white' placeholder='Ara' />
+            <input type="text" className='w-[550px] rounded-tl-full rounded-bl-full border py-2 px-5 border-[rgb(34,34,34)] bg-[rgb(15,15,15);] text-white' placeholder='Ara' />
             <button className='bg-[rgb(34,34,34)] py-3 rounded-tr-full rounded-br-full px-4'><CiSearch className='text-slate-100' /></button>
             <button className='rounded-full p-2 bg-[rgb(34,34,34)] ml-5'><BiMicrophone className='text-slate-100 text-2xl' /></button>
         </div>

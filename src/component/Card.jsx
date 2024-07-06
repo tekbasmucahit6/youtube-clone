@@ -2,7 +2,7 @@ import React from 'react'
 import { MdOutlineAccountCircle } from "react-icons/md";
 function Card() {
   return (
-    <div className='grid p-5'>
+    <div className='grid p-5 transition-all'>
         <a href="">
             <div className='flex justify-center items-center'>
                 <img src="../img/kapak.png" className='w-full' alt="" />
