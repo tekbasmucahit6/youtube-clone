@@ -19,6 +19,13 @@ const ProjectApi = [
         author : "mücahit tekbaş",
         views : "1 m görüntüleme * 10 dakika önce",
         link : "https://e-commerce-projekt.netlify.app"
+    },
+    {
+        projectName : "country data project",
+        projectImg : "../img/countryData.jpg",
+        author : "mücahit tekbaş",
+        views : "1 m görüntüleme * 10 dakika önce",
+        link : "https://countrys-data.netlify.app"
     }
 ]
 

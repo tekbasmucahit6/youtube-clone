@@ -7,17 +7,19 @@ import ProjectApi from '../api/ProjectApi'
 
 function Content() {
     const [project,setProject] = useState([])
+
     const [loading,setLoading] = useState(false)
+
     useEffect(() => {
         setLoading(true)
         setProject(ProjectApi)
         setLoading(false)
     },[])
-    console.log(project)
+
   return (
     <div className="text-white mb-16">
         <Navbar />
-        <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 mt-10'>
+        <div className='grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 mt-10'>
             {
                 loading?<div className='text-white text-3xl'>yükleniyor</div>
                 :
