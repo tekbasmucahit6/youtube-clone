@@ -1,11 +1,11 @@
 import React from 'react'
 import { MdOutlineAccountCircle } from "react-icons/md";
-function Card() {
+function Card( { projectName,projectImg,author,views,link,i } ) {
   return (
-    <div className='grid p-5 transition-all'>
-        <a href="">
+    <div className='grid p-5 transition-all' key={i}>
+        <a href={link}>
             <div className='flex justify-center items-center'>
-                <img src="../img/kapak.png" className='w-full' alt="" />
+                <img src={projectImg} className='w-72' alt="" />
             </div>
 
 
@@ -16,9 +16,9 @@ function Card() {
                 </div>
 
                 <div className='grid col-span-4 gap-2'>
-                    <h1>youtube clonu yapıyorumm</h1>
-                    <i className='text-gray-500'>mücahit tekbaş</i>
-                    <i className='text-sm'>1 m görüntülenme * 10 dakika önce</i>
+                    <h1>{projectName}</h1>
+                    <i className='text-gray-500'>{author}</i>
+                    <i className='text-sm'>{views}</i>
                 </div>
 
             </div>
